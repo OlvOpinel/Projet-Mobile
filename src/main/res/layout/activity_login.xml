@@ -81,7 +81,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/etName"
+                android:id="@+id/username"
                 app:drawableTint="@color/black"
                 android:drawablePadding="8dp"
                 android:inputType="text"
@@ -101,7 +101,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/etPassword"
+                android:id="@+id/password"
                 app:drawableTint="@color/black"
                 android:drawablePadding="8dp"
                 android:inputType="textPassword"
