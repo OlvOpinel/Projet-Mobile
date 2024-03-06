@@ -68,7 +68,7 @@ public class RegisterActivity extends AppCompatActivity {
             success = response.getBoolean("success");
 
             if (success == true) {
-                Intent menuactivity = new Intent(getApplicationContext(), MenuActivity.class);
+                Intent menuactivity = new Intent(getApplicationContext(), MainActivity.class);
                 menuactivity.putExtra("username", username);
                 startActivity(menuactivity);
                 finish();
